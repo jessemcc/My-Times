@@ -1,0 +1,26 @@
+#header{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: fixed;
+  width: auto;
+}
+
+.hlogo{
+  float: left;
+}
+
+#lefth p{
+  color: mediumaquamarine;
+  display: inline-flex;
+  margin: 20px 25px;
+}
+
+#righth{
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul{
+    list-style-type: none;
+}
