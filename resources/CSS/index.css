@@ -4,6 +4,8 @@
   font-weight: bold;
   display: fixed;
   width: auto;
+  height: 70px;
+  border-bottom: 1px solid black;
 }
 
 .hlogo{
@@ -12,8 +14,11 @@
 
 #lefth p{
   color: mediumaquamarine;
-  display: inline-flex;
   margin: 20px 25px;
+}
+
+#lefth{
+
 }
 
 #righth{
@@ -23,4 +28,9 @@
 
 ul{
     list-style-type: none;
+}
+
+li a{
+    margin-right: 20px;
+    color: black;
 }
