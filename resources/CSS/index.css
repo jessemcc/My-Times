@@ -1,3 +1,5 @@
+/*Header CSS Code */
+
 #header{
   font-family: Verdana;
   font-size: 14px;
@@ -17,10 +19,6 @@
   margin: 20px 25px;
 }
 
-#lefth{
-
-}
-
 #righth{
   display: flex;
   justify-content: flex-end;
@@ -33,4 +31,76 @@ ul{
 li a{
     margin-right: 20px;
     color: black;
+}
+
+
+/* Body CSS Code*/
+
+
+#column{
+  display: flex;
+  padding: 50px 50px 0px 0px;
+  border: 1px solid black;
+}
+
+#column.large{
+  width: 630px;
+  border: 1px solid black;
+  margin: 100px;
+}
+
+#column.medium{
+  width: 300px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+#column.small{
+  width: 240px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.mother{
+  border: 1px solid black;
+}
+
+.mimgtext{
+  border: 1px solid black;
+}
+
+.orca{
+  border: 1px solid black;
+}
+
+.earth{
+  border: 1px solid black;
+}
+
+.burger{
+  border: 1px solid black;
+}
+
+.research{
+  border: 1px solid black;
+}
+
+.fbi{
+  border: 1px solid black;
+}
+
+.cats{
+  border: 1px solid black;
+}
+
+.brooklyn{
+  border: 1px solid black;
+}
+
+.cookie{
+  border: 1px solid black;
+}
+
+.news{
+  border: 1px solid black;
 }
