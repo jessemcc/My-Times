@@ -4,7 +4,7 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: fixed;
+  position: fixed;
   width: auto;
   height: 70px;
   border-bottom: 1px solid black;
@@ -14,14 +14,17 @@
   float: left;
 }
 
+#lefth{
+  border: 1px solid black;
+  padding-right: 500px;
+}
+
 #lefth p{
   color: mediumaquamarine;
-  margin: 20px 25px;
 }
 
 #righth{
-  display: flex;
-  justify-content: flex-end;
+
 }
 
 ul{
@@ -39,14 +42,14 @@ li a{
 
 #column{
   display: flex;
-  padding: 50px 50px 0px 0px;
+  padding-top: 50px;
   border: 1px solid black;
 }
 
 #column.large{
   width: 630px;
   border: 1px solid black;
-  margin: 100px;
+  margin: 20px;
 }
 
 #column.medium{
@@ -67,6 +70,9 @@ li a{
 
 .mimgtext{
   border: 1px solid black;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  width: 600px;
+  height: 300px;
 }
 
 .orca{
@@ -83,6 +89,11 @@ li a{
 
 .research{
   border: 1px solid black;
+}
+
+.rimgtext{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+
 }
 
 .fbi{
