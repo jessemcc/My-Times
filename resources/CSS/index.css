@@ -4,64 +4,82 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  position: fixed;
-  width: auto;
-  height: 70px;
+  display: flex;
+  width: 100%;
+  height: 75px;
   border-bottom: 1px solid black;
-}
-
-.hlogo{
-  float: left;
+  position: fixed;
+  z-index: 10;
+  background-color: white;
 }
 
 #lefth{
-  border: 1px solid black;
-  padding-right: 500px;
+  display: inline-flex;
+  align-items: center;
+  flex: 1 1;
 }
 
 #lefth p{
   color: mediumaquamarine;
 }
 
-#righth{
+.hlogo{
+    margin-right: 15px;
+}
 
+#righth{
+  display: inline-flex;
+  flex: 1 1;
+  min-height: 75px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  padding-right: 40px;
 }
 
 ul{
     list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+li{
+  margin-left: 25px;
 }
 
 li a{
-    margin-right: 20px;
-    color: black;
+  color: black;
 }
-
 
 /* Body CSS Code*/
 
+#main{
+  z-index: 5;
+  padding-top: 75px;
+}
 
 #column{
-  display: flex;
-  padding-top: 50px;
-  border: 1px solid black;
+width: 1240px;
+display: flex;
+justify-content: space-between;
+margin-top: 45px;
+border: 1px solid black
 }
 
-#column.large{
+#large{
   width: 630px;
   border: 1px solid black;
-  margin: 20px;
+  position: relative;
 }
 
-#column.medium{
+#medium{
   width: 300px;
   border: 1px solid black;
-  margin: 20px;
 }
 
-#column.small{
+#small{
   width: 240px;
   border: 1px solid black;
-  margin: 20px;
 }
 
 .mother{
@@ -70,9 +88,10 @@ li a{
 
 .mimgtext{
   border: 1px solid black;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
-  width: 600px;
-  height: 300px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
 }
 
 .orca{
@@ -87,13 +106,13 @@ li a{
   border: 1px solid black;
 }
 
+
 .research{
   border: 1px solid black;
 }
 
 .rimgtext{
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
-
+  border: 1px solid black;
 }
 
 .fbi{
