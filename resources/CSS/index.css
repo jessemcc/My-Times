@@ -160,6 +160,50 @@ li a{
 
 }
 
-.news{
+#news{
+  display: flex;
+  flex-direction: column;
+}
 
+.ntitle{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.ncontent{
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 10px 20px;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 300px;
+  margin-top: 100px;
+}
+
+.tfooter{
+  display: flex;
+  flex-direction: row;
+}
+
+footer .hlogo{
+  padding-right: 15px;
+  border-right: 3px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }
