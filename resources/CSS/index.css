@@ -9,8 +9,9 @@
   height: 75px;
   border-bottom: 1px solid black;
   position: fixed;
-  z-index: 10;
+  z-index: 1;
   background-color: white;
+  margin: 0 auto;
 }
 
 #lefth{
@@ -54,7 +55,6 @@ li a{
 /* Body CSS Code*/
 
 #main{
-  z-index: 5;
   padding-top: 75px;
   display: flex;
   justify-content: center;
@@ -71,14 +71,17 @@ li a{
   width: 630px;
   display: flex;
   flex-wrap: wrap;
+  margin: 0 20px;
 }
 
 #medium{
   width: 300px;
+  margin: 0 20px;
 }
 
 #small{
   width: 240px;
+  margin: 0 20px;
 }
 
 .mainstory{
@@ -142,22 +145,10 @@ li a{
   display: block;
 }
 
-.fbi{
-
-}
-
 .cats .imgtext{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
   height: 300px;
   display: flex;
-}
-
-.brooklyn{
-
-}
-
-.cookie{
-
 }
 
 #news{
@@ -197,6 +188,7 @@ footer{
 .tfooter{
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 footer .hlogo{
