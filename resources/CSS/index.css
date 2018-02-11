@@ -1,6 +1,6 @@
 /*Header CSS Code */
 
-#header{
+header{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -11,7 +11,6 @@
   position: fixed;
   z-index: 1;
   background-color: white;
-  margin: 0 auto;
 }
 
 #lefth{
@@ -54,10 +53,14 @@ li a{
 
 /* Body CSS Code*/
 
+body{
+  margin: 0px;
+  border: 0;
+}
+
 #main{
   padding-top: 75px;
   display: flex;
-  justify-content: center;
 }
 
 #column{
@@ -105,10 +108,11 @@ li a{
 .mother .imgtext{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   height: 300px;
-  width: 630px;
-  display: block;
+  display: flex;
+  flex-direction: column;
   font-size: 40px;
   text-align: left;
+  justify-content: center;
 }
 
 .imgtext{
@@ -117,6 +121,7 @@ li a{
   font-weight: bold;
   font-size: 30px;
   text-align: center;
+  justify-content: center;
 }
 
 .content{
@@ -132,7 +137,9 @@ li a{
 .earth .imgtext{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
   height: 300px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .burger{
@@ -142,13 +149,22 @@ li a{
 .research .imgtext{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
   height: 300px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cats .imgtext{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
   height: 300px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: bold;
 }
 
 #news{
